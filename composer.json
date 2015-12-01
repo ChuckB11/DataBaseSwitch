@@ -2,10 +2,6 @@
     "name" : "dbswitch/databaseswitch",
     "description" : "Allow to switch DB dynamically",
     "type" : "symfony-bundle",
-    "authors" : [{
-        "name" : "Boris.D",
-        "email" : "boris.d@infonova.fr"
-    }],
     "keywords" : [
         "dbswitch"
     ],
