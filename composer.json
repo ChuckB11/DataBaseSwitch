@@ -1,30 +1,30 @@
 {
-    "name": "dbswitch/databaseswitch",
-    "license": "proprietary",
-    "type": "symfony-bundle",
-    "autoload": {
-        "psr-4": {
-            "": "src/"
-        },
-        "psr-0": {
-            "": "src/"
+    "name" : "dbswitch/databaseswitch",
+    "description" : "A DBSwitch bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "dbswitch",
+        "email" : "boris.d@infonova.fr"
+    }],
+    "keywords" : [
+        "dbswitch"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Nucleus\\DBSwitchBundle" : ""
         }
     },
-    "require": {
-        "php": ">=5.3.9",
-        "symfony/symfony": "2.8.*",
-        "doctrine/orm": "^2.4.8",
-        "doctrine/doctrine-bundle": "~1.4",
-        "sensio/distribution-bundle": "~5.0",
-        "sensio/framework-extra-bundle": "^3.0.2"
-    },
-    "config": {
-        "bin-dir": "bin"
-    },
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web",
-        "symfony-assets-install": "relative"
+    "target-dir" : "Nucleus/DBSwitchBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "master-dev"
         }
     }
-
+}
