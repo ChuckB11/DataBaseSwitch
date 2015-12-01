@@ -13,6 +13,11 @@
         "MIT"
     ],
     "require" : {
+        "php" : ">=5.3.9",
+        "symfony/framework-bundle" : ">=2.5.6",
+        "sensio/framework-extra-bundle": "^3.0.2",
+        "twig/twig" : "*",
+        "doctrine/doctrine-bundle" : "*"
     },
     "autoload" : {
         "psr-0" : {
@@ -21,10 +26,5 @@
     },
     "target-dir" : "Nucleus/DataBaseSwitchBundle",
     "repositories" : [{
-    }],
-    "extra" : {
-    "branch-alias" : {
-            "dev-master" : "dev-master"
-        }
-    }
+    }]
 }
