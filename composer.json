@@ -1,5 +1,5 @@
 {
-    "name": "DBSwitch/DataBaseSwitch",
+    "name": "dbswitch/databaseswitch",
     "license": "proprietary",
     "type": "symfony-bundle",
     "autoload": {
