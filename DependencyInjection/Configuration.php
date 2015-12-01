@@ -20,19 +20,19 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('data_base_switch')->children()
 
-            ->variableNode('dbname')
+            ->variableNode('database_name')
             ->defaultValue("")
             ->end()
             ->variableNode('code_courtier')
             ->defaultValue("")
             ->end()
-            ->variableNode('host')
+            ->variableNode('database_host')
             ->defaultValue("")
             ->end()
-            ->variableNode('user')
+            ->variableNode('database_user')
             ->defaultValue("")
             ->end()
-            ->variableNode('password')
+            ->variableNode('database_password')
             ->defaultValue("")
             ->end();
 

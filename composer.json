@@ -3,7 +3,7 @@
     "description" : "A DBSwitch bundle",
     "type" : "symfony-bundle",
     "authors" : [{
-        "name" : "dbswitch",
+        "name" : "Boris.D",
         "email" : "boris.d@infonova.fr"
     }],
     "keywords" : [
