@@ -1,6 +1,6 @@
 {
     "name" : "dbswitch/databaseswitch",
-    "description" : "A DBSwitch bundle",
+    "description" : "A bundle allowing to switch DB dynamically",
     "type" : "symfony-bundle",
     "authors" : [{
         "name" : "Boris.D",
@@ -24,7 +24,7 @@
     }],
     "extra" : {
     "branch-alias" : {
-            "dev-master" : "master-dev"
+            "dev-master" : "dev-master"
         }
     }
 }
