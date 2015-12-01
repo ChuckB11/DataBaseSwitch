@@ -1,0 +1,4 @@
+services:
+    data_base_switch.switcher.exec:
+        class: Nucleus\DataBaseSwitchBundle\Switcher\SwitchExec
+        arguments: [@kernel]

@@ -1,0 +1,7 @@
+data_base_switch_contact:
+    resource: "@DataBaseSwitchBundle/Resources/config/routing/contact.yml"
+    prefix:   /contact
+
+data_base_switch_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DataBaseSwitchBundle:Default:index }
