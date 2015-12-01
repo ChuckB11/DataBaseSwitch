@@ -16,10 +16,10 @@
     },
     "autoload" : {
         "psr-0" : {
-            "Nucleus\\DBSwitchBundle" : ""
+            "Nucleus\\DataBaseSwitchBundle" : ""
         }
     },
-    "target-dir" : "Nucleus/DBSwitchBundle",
+    "target-dir" : "Nucleus/DataBaseSwitchBundle",
     "repositories" : [{
     }],
     "extra" : {
