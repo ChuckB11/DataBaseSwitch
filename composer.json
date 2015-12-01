@@ -1,6 +1,6 @@
 {
     "name" : "dbswitch/databaseswitch",
-    "description" : "A bundle allowing to switch DB dynamically",
+    "description" : "Allow to switch DB dynamically",
     "type" : "symfony-bundle",
     "authors" : [{
         "name" : "Boris.D",
