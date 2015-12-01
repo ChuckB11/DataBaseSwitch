@@ -32,7 +32,7 @@ class SwitchListener
         $db_name = str_replace(["-","."], "_", $_SERVER['HTTP_HOST']);
 
         $infoDatabase = array(
-            'database_name'       => $db_name
+            'dbname'       => $db_name
         );
         $connection = 'default_connection';
 
