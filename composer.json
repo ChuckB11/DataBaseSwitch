@@ -1,5 +1,5 @@
 {
-    "name": "boris/data-base-switch",
+    "name": "DataBaseSwitch",
     "license": "proprietary",
     "type": "symfony-bundle",
     "autoload": {
@@ -16,7 +16,7 @@
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
         "sensio/distribution-bundle": "~4.0",
-        "sensio/framework-extra-bundle": "^3.0.2",
+        "sensio/framework-extra-bundle": "^3.0.2"
     },
     "config": {
         "bin-dir": "bin"
