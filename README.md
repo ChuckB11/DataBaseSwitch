@@ -87,16 +87,16 @@ In src/YourAmazingBundle/ :
 - create "SwitchListener.php" with that code :
 
 
-    <?php
-    namespace YourAmazingBundle\Switcher;                                       <=== local namespace, Be carefull
-    
-    use Symfony\Component\DependencyInjection\ContainerBuilder;
-    use Symfony\Component\HttpKernel\Event\GetResponseEvent;
-    use Symfony\Component\HttpKernel\HttpKernelInterface;
-    use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
-    use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
-    use Nucleus\DataBaseSwitchBundle\Switcher\SwitchExec;                       <=== Don't forget this use
-    
+        <?php
+        namespace YourAmazingBundle\Switcher;                                       <=== local namespace, Be carefull
+        
+        use Symfony\Component\DependencyInjection\ContainerBuilder;
+        use Symfony\Component\HttpKernel\Event\GetResponseEvent;
+        use Symfony\Component\HttpKernel\HttpKernelInterface;
+        use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
+        use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
+        use Nucleus\DataBaseSwitchBundle\Switcher\SwitchExec;                       <=== Don't forget this use
+        
         class SwitchListener
         {
             // Notre processeur
@@ -133,10 +133,10 @@ In src/YourAmazingBundle/ :
 #Step 5 : Add the DBSwitchBundle in your AppKernel.php
 ... just add the DBSwitchBundle in your Kernel bundles :
 
-$bundles = array(
-            ... ,
-            new Nucleus\DataBaseSwitchBundle\DataBaseSwitchBundle()
-        );
+    $bundles = array(
+                ... ,
+                new Nucleus\DataBaseSwitchBundle\DataBaseSwitchBundle()
+            );
         
 #Job's done !
 (if you have any issue, try to clear the cache when the bundle is setted up, then reload the page)
