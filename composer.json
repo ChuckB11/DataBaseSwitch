@@ -1,5 +1,5 @@
 {
-    "name" : "dbswitch/databaseswitch",
+    "name" : "nucleus/databaseswitch",
     "description" : "Allow to switch DB dynamically",
     "type" : "symfony-bundle",
     "keywords" : [
