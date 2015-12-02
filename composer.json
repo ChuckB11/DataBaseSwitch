@@ -16,7 +16,7 @@
     ],
     "autoload" : {
         "psr-4" : {
-            "nucleus\\databaseswitchbundle\\" : "src/"
+            "Nucleus\\DataBaseSwitchBundle\\" : "src/"
         }
     },
     "minimum-stability": "dev"
