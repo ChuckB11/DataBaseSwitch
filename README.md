@@ -70,11 +70,18 @@ You'll need to create a service for your listener :
 Just add the DBSwitchBundle in your composer.json and do an update
 
 "require": {
-        ...
-        "dbswitch/databaseswitch": "master-dev"
+            ...,
+          "nucleus/databaseswitchbundle": "dev-master"
     },
 
 then,
+
+"repositories" : [{
+    "type" : "git",
+    "url" :  "git@labgit.com:nucleus/DataBaseSwitch.git"
+  }],
+  
+  then,
 
 php composer update
 
