@@ -15,8 +15,8 @@
         "MIT"
     ],
     "autoload" : {
-        "psr-0" : {
-            "" : "src/"
+        "psr-4" : {
+            "nucleus\\databaseswitchbundle\\" : "src/"
         }
     },
     "minimum-stability": "dev"
