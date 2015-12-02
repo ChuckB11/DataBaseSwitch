@@ -20,6 +20,5 @@
             "" : "src/"
         }
     },
-    "target-dir" : "Nucleus/DataBaseSwitchBundle",
     "minimum-stability": "dev"
 }
