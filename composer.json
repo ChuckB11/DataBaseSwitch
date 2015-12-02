@@ -15,7 +15,7 @@
         "MIT"
     ],
     "autoload" : {
-        "psr-0" : {
+        "psr-4" : {
             "Nucleus\\DataBaseSwitchBundle" : "DataBaseSwitchBundle",
             "" : "src/"
         }
