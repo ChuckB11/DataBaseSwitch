@@ -69,17 +69,17 @@ You'll need to create a service for your listener :
 #Step 3 : Composer.json
 Just add the DBSwitchBundle in your composer.json and do an update
 
-"require": {
-            ...,
-          "nucleus/databaseswitchbundle": "dev-master"
-    },
+        "require": {
+                    ...,
+                  "nucleus/databaseswitchbundle": "dev-master"
+            },
 
 then,
 
-"repositories" : [{
-    "type" : "git",
-    "url" :  "git@labgit.com:nucleus/DataBaseSwitch.git"
-  }],
+        "repositories" : [{
+            "type" : "git",
+            "url" :  "git@labgit.com:nucleus/DataBaseSwitch.git"
+          }],
   
   then,
 
