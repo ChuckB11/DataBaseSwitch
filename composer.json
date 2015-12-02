@@ -7,6 +7,7 @@
         "dbswitch",
         "databaseswitch"
     ],
+    
     "require": {
             "php": ">=5.3.9"
     },
@@ -15,7 +16,8 @@
     ],
     "autoload" : {
         "psr-0" : {
-            "Nucleus\\DataBaseSwitchBundle" : ""
+            "Nucleus\\DataBaseSwitchBundle" : "DataBaseSwitchBundle",
+            "" : "src/"
         }
     },
     "target-dir" : "Nucleus/DataBaseSwitchBundle",
