@@ -16,7 +16,6 @@
     ],
     "autoload" : {
         "psr-4" : {
-            "Nucleus\\DataBaseSwitchBundle" : "DataBaseSwitchBundle/",
             "" : "src/"
         }
     },
