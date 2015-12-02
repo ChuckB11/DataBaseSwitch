@@ -3,7 +3,9 @@
     "description" : "Allow to switch DB dynamically",
     "type" : "symfony-bundle",
     "keywords" : [
-        "dbswitch"
+        "nucleus",
+        "dbswitch",
+        "databaseswitch"
     ],
     "require": {
             "php": ">=5.3.9"
